@@ -1,11 +1,12 @@
 
 # Feed-forward Likelihood Maximization for Gaussian-based Occupancy Prediction [ECCV 2026]
 
+> [arXiv](https://arxiv.org/abs/2606.21373v1) | [Project Page](https://gcchen97.github.io/flm-occ/)
+
 - Feed-forward Likelihood Maximization for Occupancy Prediction (FLM-Occ) learns to iteratively maximize the Gaussian likelihood over the voxel distribution (test-time unrolled optimization).
 - This method largely simplifies the implementation of Gaussian-based occupancy prediction, and achieves state-of-the-art performance on the ScanNet-Occ dataset with significantly reduced computational cost.
 - The superquadric-based implementation further improves the efficiency and accuracy.
 
-> [arXiv](https://arxiv.org/abs/2606.21373v1) | [Project Page](https://gcchen97.github.io/flm-occ/)
 
 
 ## Installation
@@ -42,6 +43,12 @@ pip3 install tensorboard swanlab
 ```bash
 python train.py
 ```
+
+
+## TODO List
+- [ ] Add evaluation script
+- [ ] Add pre-trained model weights
+- [ ] Add visualization script
 
 
 ## Acknowledgement

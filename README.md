@@ -7,6 +7,9 @@
 - This method largely simplifies the implementation of Gaussian-based occupancy prediction, and achieves state-of-the-art performance on the ScanNet-Occ dataset with significantly reduced computational cost.
 - The superquadric-based implementation further improves the efficiency and accuracy.
 
+<div align="center">
+  <img src="assets/intro.svg" style="zoom: 160%;" />
+</div>
 
 
 ## Installation
@@ -74,4 +77,3 @@ Thanks for their contributions to the research community!
 
 ## License
 This project is licensed under the MIT License, except for third-party code under `third_party/`, which is subject to its original licenses and notices.
-

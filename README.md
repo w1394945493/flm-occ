@@ -50,8 +50,15 @@ python train.py
 Setting batch size to 32 on a single GPU requires ~40GB VRAM.
 
 
+## Evaluation
+1. Insure that the dataset path and the configs are correctly set.
+2. Modify `PATH_CKPT` in `eval.py` to point to the trained model checkpoint.
+```bash
+python eval.py
+```
+
+
 ## TODO List
-- [ ] Add evaluation script
 - [ ] Add pre-trained model weights
 - [ ] Add visualization script
 
